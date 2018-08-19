@@ -42,7 +42,7 @@ import Adafruit_DHT
 #==================================================================================================================================================
 
 # Type of sensor, can be Adafruit_DHT.DHT11, Adafruit_DHT.DHT22, or Adafruit_DHT.AM2302.
-DHT_TYPE = Adafruit_DHT.DHT22
+DHT_TYPE = Adafruit_DHT.DHT11
 
 # Example of sensor connected to Raspberry Pi pin 23
 DHT_PIN  = sys.argv[3]
